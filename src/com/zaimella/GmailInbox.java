@@ -83,6 +83,8 @@ public class GmailInbox {
                     cliente = "santamaria_corte ";
                 } else if (emisor.contains("@grupodifare.com")) {
                     cliente = "distrigen_corte ";
+                } else {
+                    cliente = "nodefinido_corte ";
                 }
 
                 cliente = cliente + sentDate + " ";
